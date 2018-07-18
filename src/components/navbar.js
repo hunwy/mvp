@@ -69,7 +69,7 @@ class NavBar extends Component {
           </a>
           <ul>
             <li className="Li1">
-              <GuestRegister clicklogout={this.state.clicklogout} type='1' onLogOut={this.onLogOut} />
+              <GuestRegister clicklogout={this.state.clicklogout} type='1' userlogin={this.state.userlogin} Onuserlogin={this.Onuserlogin} onLogOut={this.onLogOut} />
             </li>
             <li className="Li2">
               <Link to="/Intro">
